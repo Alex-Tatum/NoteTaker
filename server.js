@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(express.static('public'))
 
 // Router
-require("/Users/tatum/Note Taker/routes/apiroutes")(app);
-require("/Users/tatum/Note Taker/routes/htmlroutes")(app);
+require("./routes/apiroutes")(app);
+require("./routes/htmlroutes")(app);
 
 
 // Listener
